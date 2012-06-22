@@ -181,4 +181,5 @@ $(function () {
     CodeMirror.commands.selectAll(searchField);
     searchField.focus();
     showError(null);
+    highlightMatches();
 });
